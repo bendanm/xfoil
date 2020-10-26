@@ -17,7 +17,12 @@ $ make install
 
 ## MacOSX Installation
 
-Install Homebrew from https://brew.sh/
+Install Homebrew from https://brew.sh/ by running the following command in the 
+Terminal.app:
+
+```
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+```
 
 Install [XCode](https://apps.apple.com/au/app/xcode/id497799835). Open it
 once and install the Unix commandline utilities when prompted. 
