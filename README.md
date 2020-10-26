@@ -17,23 +17,23 @@ $ make install
 
 ## MacOSX Installation
 
-* Install Homebrew from https://brew.sh/ by running the following command in the 
+Install Homebrew from https://brew.sh/ by running the following command in the 
 Terminal.app:
 
 ```
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 ```
 
-* Install [XCode](https://apps.apple.com/au/app/xcode/id497799835). Open it
+Install [XCode](https://apps.apple.com/au/app/xcode/id497799835). Open it
 once and install the Unix commandline utilities when prompted. 
 
-* Open Terminal.app and run the following to the intall pre-requisites:
+Open Terminal.app and run the following to the intall pre-requisites:
 
 ```
 brew update ; brew install cmake gcc libx11 gfortran ;
 ```
 
-* Download and build xfoil:
+Download and build xfoil:
 
 ```
 mkdir xfoil && cd xfoil && curl -L -k https://github.com/bendanm/xfoil/tarball/master | tar --strip-components=1 -zx && mkdir build && cd build && cmake .. && make install ;
