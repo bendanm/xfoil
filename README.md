@@ -7,7 +7,7 @@
 A copy of [RobotLocomotion/xfoil](https://github.com/RobotLocomotion/xfoil)
 with further instructions for building for MacOSX. 
 
-## Install
+## General Unix Installation steps
 
 ```
 $ mkdir build && cd build
