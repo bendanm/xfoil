@@ -30,7 +30,7 @@ once and install the Unix commandline utilities when prompted.
 Open Terminal.app and run the following to the intall pre-requisites:
 
 ```
-brew update ; brew install cmake gcc libx11 gfortran ;
+brew update ; brew install cmake gcc libx11 ;
 ```
 
 Download and build xfoil:
