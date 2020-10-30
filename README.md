@@ -27,7 +27,7 @@ Terminal.app:
 Open Terminal.app and run the following to the intall pre-requisites:
 
 ```
-brew update && brew cask install xquartz && brew install cmake gcc libx11; 
+brew update && brew cask install xquartz && brew install cmake gcc; 
 ```
 
 Download and build xfoil:
@@ -38,6 +38,6 @@ mkdir xfoil && cd xfoil && curl -L -k https://github.com/bendanm/xfoil/tarball/m
 
 The above snippit:
 1. Makes a directory called xfoil to download the code into
-2. Downloads and exracts [xfoil](https://github.com/bendanm/xfoil/) to directory
+2. Downloads and extracts [xfoil](https://github.com/bendanm/xfoil/) to directory
 3. Builds xfoil from source and installs to default location, by default `/usr/local/bin`
-4. The xfoil directory the source code was downloaded into can be deleted when complete. 
+4. The xfoil directory that the source code was downloaded into can be deleted when complete. 
